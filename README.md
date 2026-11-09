@@ -19,14 +19,11 @@ Before running the system, ensure your environment is set up with the following:
 ## How To Run
 Open three separate terminal windows and navigate to the project directory in all of them.
 
-In Terminal 1, start Node 1:
-    ```bash
-    go run main.go -id 1
+**In Terminal 1**, start Node 1:
+go run main.go -id 1
+   
+**In Terminal 2**, start Node 2:
+go run main.go -id 2
 
-In Terminal 2, start Node 2:
-    ```bash
-    go run main.go -id 2
-
-In Terminal 3, start Node 3:
-    ```bash 
-    go run main.go -id 3
+**In Terminal 3**, start Node 3:
+go run main.go -id 3
